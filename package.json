@@ -1,0 +1,21 @@
+{
+    "scripts": {
+        "start": "webpack --config webpack.config.js --watch --progress --profile",
+        "build": "webpack --config webpack.config.js --progress --profile",
+        "prod": "webpack --env.NODE_ENV=production --config webpack.config.js --progress"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.2.0",
+        "style-loader": "^1.0.0",
+        "url-loader": "^2.2.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "jquery": "^3.4.1",
+        "popper": "^1.0.1",
+        "popper.js": "^1.16.0"
+    }
+}
